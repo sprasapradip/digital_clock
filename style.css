@@ -1,0 +1,16 @@
+.clock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    animation: slideClock 10s linear infinite;
+  }
+  
+  @keyframes slideClock {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(100vw - 100%));
+    }
+  }
+  
